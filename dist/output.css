@@ -557,3 +557,13 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+@font-face {
+  font-family: NotoSansReg;
+
+  src: url("../public/NotoSans-Regular.ttf");
+}
+
+* {
+  font-family: "NotoSansReg", sans-serif;
+}
