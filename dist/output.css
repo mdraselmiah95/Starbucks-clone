@@ -580,6 +580,18 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -653,6 +665,10 @@ video {
 
 .bg-\[url\(\'\/public\/images\/1\.webp\'\)\] {
   background-image: url('/public/images/1.webp');
+}
+
+.bg-\[url\(\'\/public\/images\/2\.webp\'\)\] {
+  background-image: url('/public/images/2.webp');
 }
 
 .bg-contain {
@@ -771,5 +787,15 @@ video {
   .xl\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+
+  .xl\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .xl\:mx-14 {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
 }
