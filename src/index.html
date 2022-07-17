@@ -14,9 +14,9 @@
   </head>
   <body>
     <!-- MENU -->
-    <div class="flex justify-between items-center py-2 px-2">
+    <div class="flex items-center justify-between px-2 py-2">
       <div>
-        <ul class="flex flex-row font-bold items-center text-sm">
+        <ul class="flex flex-row items-center text-sm font-bold">
           <svg
             class="block"
             xmlns="http://www.w3.org/2000/svg"
@@ -42,20 +42,20 @@
         </ul>
       </div>
       <div class="hidden lg:inline">
-        <ul class="flex flex-row font-bold text-sm items-center">
+        <ul class="flex flex-row items-center text-sm font-bold">
           <li class="px-2">
             <i class="fa-solid fa-location-dot"></i> Find a store
           </li>
           <li class="px-2">
             <button
-              class="border-solid border-black border-2 rounded-full px-5 py-1 text-center font-bold"
+              class="px-5 py-1 font-bold text-center border-2 border-black border-solid rounded-full"
             >
               Sign in
             </button>
           </li>
           <li class="px-2">
             <button
-              class="border-solid border-black border-2 rounded-full px-5 py-1 text-center font-bold text-white bg-black"
+              class="px-5 py-1 font-bold text-center text-white bg-black border-2 border-black border-solid rounded-full"
             >
               Join now
             </button>
@@ -64,6 +64,32 @@
       </div>
     </div>
 
-    <div class="border my-6"></div>
+    <div class="my-6 border"></div>
+
+    <div class="xl:mx-32">
+      <!-- HERO-1 -->
+      <div class="flex flex-col lg:flex-row bg-starGreen">
+        <div class="relative flex-none md:w-6/12">
+          <div
+            class="absolute w-full h-full bg-[url('/public/images/1.webp')] bg-contain lg:bg-cover lg:bg-center"
+          ></div>
+        </div>
+        <img src="/public/images/1.webp" class="lg:hidden" />
+        <div>
+          <div class="p-10 mx-12 text-center sm:p-24">
+            <p class="text-[50px] font-bold">Sign up for Starbucks® Rewards</p>
+            <p class="text-[24px]">
+              Starting 4/22, get 25 Stars when you bring your clean, reusable
+              cup into the café. Stars can quickly add up to Rewards.*
+            </p>
+            <button
+              class="px-5 py-1 mt-2 font-bold text-center border-2 border-black border-solid rounded-full hover:bg-slate-50"
+            >
+              Join now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
